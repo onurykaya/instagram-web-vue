@@ -81,7 +81,7 @@
         voluptatem, voluptatum.</CustomText
       >
       <CustomText tag="p">
-        Onur
+        Onur Yerlikaya
       </CustomText>
     </div>
     <div class="sidebar">
