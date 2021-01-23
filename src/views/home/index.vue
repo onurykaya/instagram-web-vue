@@ -2,7 +2,20 @@
   <div class="home">
     <div class="timeline">
       <CustomText tag="h1">Home</CustomText>
-      <Avatar size="80"/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+
+      <Post/>
+
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
     <div class="sidebar">
       <CustomText tag="p"
@@ -17,11 +30,11 @@
 
 <script>
 import CustomText from "@/components/CustomText";
-import Avatar from "@/components/Avatar";
+import Post from "@/components/Post";
 export default {
   name: "Home",
   components: {
-    Avatar,
+    Post,
     CustomText
   }
 };
