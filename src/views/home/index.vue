@@ -2,95 +2,9 @@
   <div class="home">
     <div class="timeline">
       <CustomText tag="h1">Home</CustomText>
-      <CustomText tag="p"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-        dolore expedita harum optio pariatur rerum sint. Alias atque beatae
-        delectus dignissimos ea maxime nesciunt nulla sit tempora unde
-        voluptatem, voluptatum.</CustomText
-      >
-      <CustomText tag="p"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-        dolore expedita harum optio pariatur rerum sint. Alias atque beatae
-        delectus dignissimos ea maxime nesciunt nulla sit tempora unde
-        voluptatem, voluptatum.</CustomText
-      >
-      <CustomText tag="p"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-        dolore expedita harum optio pariatur rerum sint. Alias atque beatae
-        delectus dignissimos ea maxime nesciunt nulla sit tempora unde
-        voluptatem, voluptatum.</CustomText
-      >
-      <CustomText tag="p"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-        dolore expedita harum optio pariatur rerum sint. Alias atque beatae
-        delectus dignissimos ea maxime nesciunt nulla sit tempora unde
-        voluptatem, voluptatum.</CustomText
-      >
-      <CustomText tag="p"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-        dolore expedita harum optio pariatur rerum sint. Alias atque beatae
-        delectus dignissimos ea maxime nesciunt nulla sit tempora unde
-        voluptatem, voluptatum.</CustomText
-      >
-      <CustomText tag="p"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-        dolore expedita harum optio pariatur rerum sint. Alias atque beatae
-        delectus dignissimos ea maxime nesciunt nulla sit tempora unde
-        voluptatem, voluptatum.</CustomText
-      >
-      <CustomText tag="p"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-        dolore expedita harum optio pariatur rerum sint. Alias atque beatae
-        delectus dignissimos ea maxime nesciunt nulla sit tempora unde
-        voluptatem, voluptatum.</CustomText
-      >
-      <CustomText tag="p"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-        dolore expedita harum optio pariatur rerum sint. Alias atque beatae
-        delectus dignissimos ea maxime nesciunt nulla sit tempora unde
-        voluptatem, voluptatum.</CustomText
-      >
-      <CustomText tag="p"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-        dolore expedita harum optio pariatur rerum sint. Alias atque beatae
-        delectus dignissimos ea maxime nesciunt nulla sit tempora unde
-        voluptatem, voluptatum.</CustomText
-      >
-      <CustomText tag="p"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-        dolore expedita harum optio pariatur rerum sint. Alias atque beatae
-        delectus dignissimos ea maxime nesciunt nulla sit tempora unde
-        voluptatem, voluptatum.</CustomText
-      >
-      <CustomText tag="p"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-        dolore expedita harum optio pariatur rerum sint. Alias atque beatae
-        delectus dignissimos ea maxime nesciunt nulla sit tempora unde
-        voluptatem, voluptatum.</CustomText
-      >
-      <CustomText tag="p"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-        dolore expedita harum optio pariatur rerum sint. Alias atque beatae
-        delectus dignissimos ea maxime nesciunt nulla sit tempora unde
-        voluptatem, voluptatum.</CustomText
-      >
-      <CustomText tag="p"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-        dolore expedita harum optio pariatur rerum sint. Alias atque beatae
-        delectus dignissimos ea maxime nesciunt nulla sit tempora unde
-        voluptatem, voluptatum.</CustomText
-      >
-      <CustomText tag="p">
-        Onur Yerlikaya
-      </CustomText>
+      <Avatar size="80"/>
     </div>
     <div class="sidebar">
-      <CustomText tag="p"
-        >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-        dolore expedita harum optio pariatur rerum sint. Alias atque beatae
-        delectus dignissimos ea maxime nesciunt nulla sit tempora unde
-        voluptatem, voluptatum.</CustomText
-      >
       <CustomText tag="p"
         >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
         dolore expedita harum optio pariatur rerum sint. Alias atque beatae
@@ -103,9 +17,11 @@
 
 <script>
 import CustomText from "@/components/CustomText";
+import Avatar from "@/components/Avatar";
 export default {
   name: "Home",
   components: {
+    Avatar,
     CustomText
   }
 };
